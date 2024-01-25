@@ -13,7 +13,8 @@ header {
 	align-items: center;
 	margin-bottom: 16px;
 	padding: 8px;
-	background-color: #7451eb;
+	/* background-color: #7451eb; */
+	background-color: #00A884;
 	text-align: center;
 	color: white;
 }
