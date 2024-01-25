@@ -46,11 +46,45 @@ main {
 .fiches {
 	flex: 1;
 	margin: 8px;
+	display: flex;
+	flex-wrap: wrap;
 }
+
 .fiches img {
 	max-width: 200px;
 }
+
 .fiches p {
 	margin-top: 4px;
 	margin-bottom: 4px;
 }
+
+.fiches article{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid;
+	margin: 5px;
+	padding: 10px;
+	width: 45%;
+}
+
+article img{
+	transform: translateX(30%);
+}
+
+article h5{
+	text-align: center;
+}
+
+article .disponibility{
+	font-size: 0.83em;
+}
+
+.filtres button{
+	display: block;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+
